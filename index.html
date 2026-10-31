@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>คิดครับ · KhitKrub</title>
+  <meta name="theme-color" content="#0F6E56">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/192/khitkrub-192.png">
+  
+  
+  
+  
+  
+  <link rel="icon" href="./khitkrub-bb2b9b1b21d96420.svg" integrity="sha384-ssoEeTVyGhqVWdFOvP7BTP95Qcex8M7BiHUd42Yx9zPsLEMjPLKz3UOop0kaKPL+"/>
+  
+<script type="module">
+import init, * as bindings from './gridcraft-web-aee8b028edaef4c0.js';
+const wasm = await init({ module_or_path: './gridcraft-web-2d640ff8c8424c2d_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+  <style>
+    html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #f3f3f3; }
+    #khitkrub_canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+    #khitkrub_loading { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 10px; padding: 24px; box-sizing: border-box; background: #0f6e56; color: #fff;
+      font: 14px system-ui, sans-serif; text-align: center; }
+    .loading-logo { display: block; width: 88px; height: 88px; margin-bottom: 12px; }
+    .loading-name { margin: 0; font-size: 22px; font-weight: 650; line-height: 1.5; }
+    #khitkrub_progress { width: 150px; height: 5px; border-radius: 3px; overflow: hidden; background: rgb(255 255 255 / 18%); }
+    #khitkrub_progress[hidden] { display: none; }
+    .loading-fill { width: 40%; height: 100%; border-radius: 3px; background: #f2b705; animation: loading 1.6s ease-in-out infinite; }
+    @keyframes loading { 0% { margin-left: -40%; } 100% { margin-left: 100%; } }
+    @media (prefers-reduced-motion: reduce) { .loading-fill { animation: none; margin: auto; } }
+    #khitkrub_loading_status { margin: 0; max-width: 36em; overflow-wrap: anywhere; white-space: pre-line;
+      color: rgb(255 255 255 / 75%); font-size: 12px; line-height: 1.6; }
+  </style>
+<link rel="modulepreload" href="./gridcraft-web-aee8b028edaef4c0.js" crossorigin="anonymous" integrity="sha384-bXOMFtBSEG5UhPsJANSOR/fDJd6XuYgrmKcYK4SXuMzFpvHhPYEb0y++ephb1HDa"><link rel="modulepreload" href="./snippets/eframe-d31a8450ea12dfc1/inline0.js" crossorigin="anonymous" integrity="sha384-uPZQ72BwgZ4v7Km6+UIFbkDDlt7ShGEsAVEHVN/+wZSGFhItJZB83iKMFQXauTSs"><link rel="preload" href="./gridcraft-web-2d640ff8c8424c2d_bg.wasm" crossorigin="anonymous" integrity="sha384-tIgk9s5NPZp0hvG234/FUXkno7G5TTbf8kDtPySKKhBTHtUKcr5HZ5rWjjwRYV0r" as="fetch" type="application/wasm"></head>
+<body>
+  <canvas id="khitkrub_canvas"></canvas>
+  <div id="khitkrub_loading" aria-busy="true">
+    <svg class="loading-logo" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="1.5" y="1.5" width="509" height="509" rx="111" fill="#0f6e56" stroke="#ffffff55" stroke-width="5"/>
+      <path fill="#F2B705" fill-rule="nonzero" d="M 354.41 125.43 Q 389.64 151.86 389.64 197.66 L 389.64 393.97 L 325.21 393.97 L 325.21 204.20 Q 325.21 178.53 307.34 163.94 Q 289.47 149.34 258.27 149.34 Q 224.04 149.34 204.15 164.94 Q 184.27 180.55 184.27 208.23 Q 184.27 224.34 189.81 257.56 Q 198.37 227.86 215.73 211.50 Q 233.10 195.14 257.76 195.14 Q 282.43 195.14 296.27 207.73 Q 310.11 220.31 310.11 242.96 Q 310.11 265.11 297.02 277.69 Q 283.94 290.28 261.29 290.28 Q 249.71 290.28 239.89 286.25 Q 230.08 282.23 224.54 274.67 Q 216.49 286.25 211.45 303.11 Q 206.42 319.98 206.42 336.59 L 206.42 393.97 L 144.00 393.97 L 144.00 318.47 Q 144.00 307.39 134.44 273.16 Q 128.40 249.00 125.38 234.91 Q 122.36 220.82 122.36 208.74 Q 122.36 158.40 158.35 128.70 Q 194.34 99.00 258.27 99.00 Q 319.17 99.00 354.41 125.43ZM 245.43 227.86 Q 239.64 233.40 239.64 242.46 Q 239.64 252.02 245.43 257.56 Q 251.22 263.10 260.28 263.10 Q 269.34 263.10 274.88 257.56 Q 280.41 252.02 280.41 242.46 Q 280.41 233.40 274.88 227.86 Q 269.34 222.33 260.28 222.33 Q 251.22 222.33 245.43 227.86Z"/>
+    </svg>
+    <h1 class="loading-name">คิดครับ</h1>
+    <div id="khitkrub_progress" role="progressbar" aria-label="กำลังเปิดโปรแกรม"><div class="loading-fill"></div></div>
+    <p id="khitkrub_loading_status" role="status">กำลังเปิดโปรแกรม…</p>
+    <noscript>กรุณาเปิด JavaScript ในเบราว์เซอร์ แล้วโหลดหน้านี้ใหม่</noscript>
+  </div>
+</body>
+</html>
