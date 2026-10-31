@@ -11,7 +11,7 @@
 **[เปิดใช้งาน / Open KhitKrub](https://khitkrub.app/)** · [KrubOffice](https://kruboffice.app/) · [เขียนครับ · KhianKrub](https://khiankrub.app/) · [พูดครับ · PhutKrub](https://phutkrub.app/)
 
 <p align="center">
-  <img src="images/khitkrub-editor.png" alt="KhitKrub with Thai menus: the teal band, the white active tab joined to the ribbon, and the sample workbook Quarterly Sales Dashboard with a chart" width="100%">
+  <img src="images/khitkrub-editor.png" alt="KhitKrub with Thai menus: the teal band, the white active tab joined to the ribbon, and the Thai sample workbook ยอดขายร้านกาแฟ, a coffee shop's sales in baht, with a data bar, a colour scale and a chart" width="100%">
 </p>
 
 ## ประกาศภาษาไทย
@@ -67,6 +67,6 @@
 
 ## ที่มา / Credits
 
-KhitKrub is Chanon Sarasuk's Thai adaptation of [GridCraft](https://github.com/storytold/gridcraft) by the ArtCraft team (MIT or Apache-2.0, at your option), one of the apps in [KrubOffice](https://kruboffice.app/). It is not an ArtCraft product and is not affiliated with Microsoft. The screenshots are taken from the running app and show GridCraft's original sample workbooks. This repository holds the compiled site only; the source code is private. Third-party components keep their own licences: see `ATTRIBUTION.md`, `NOTICE`, and `fonts/` (Sarabun: SIL OFL 1.1; TH Sarabun New: GPL with the font exception).
+KhitKrub is Chanon Sarasuk's Thai adaptation of [GridCraft](https://github.com/storytold/gridcraft) by the ArtCraft team (MIT or Apache-2.0, at your option), one of the apps in [KrubOffice](https://kruboffice.app/). It is not an ArtCraft product and is not affiliated with Microsoft. The screenshots are taken from the running app and show its built-in sample workbooks (original content). This repository holds the compiled site only; the source code is private. Third-party components keep their own licences: see `ATTRIBUTION.md`, `NOTICE`, and `fonts/` (Sarabun: SIL OFL 1.1; TH Sarabun New: GPL with the font exception).
 
-Prepared from version **0.1.0**, source commit `f21797bb`.
+Prepared from version **0.1.0**, source commit `51d0bfaa`.
