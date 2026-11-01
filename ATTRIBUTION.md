@@ -8,10 +8,10 @@ Generated-in-code art is original and has no file to list: the UI icon set (`cra
 
 | Asset | Author | Source | Licence | Notes |
 |---|---|---|---|---|
-| `assets/app-icon/khitkrub.svg` | Chanon Sarasuk | KhitKrub icon (2026-10-29, first drawn for the KrubOffice launcher in the KhianKrub project): a gold Thai letter ค on teal; original, drawn in SVG; the letter's outline is traced from Sarabun Bold (Copyright 2018 The Sarabun Project Authors, SIL OFL 1.1) | MIT OR Apache-2.0 for the drawing; the letter outline is from Sarabun, SIL Open Font License 1.1 (`assets/app-icon/OFL-Sarabun.txt`) | KhitKrub web app icon, favicon, install icon and loading screen; a placeholder until the owner draws a final icon |
-| `assets/app-icon/khitkrub-192.png`, `assets/app-icon/khitkrub-512.png` | Chanon Sarasuk | rendered from `assets/app-icon/khitkrub.svg` with headless Chrome | MIT OR Apache-2.0 (letter outline: SIL OFL 1.1, as above) | KhitKrub web install and touch icons |
+| `assets/app-icon/khitkrub.svg` | Chanon Sarasuk | KhitKrub icon (2026-10-29, first drawn for the KrubOffice launcher in the KhianKrub project): a gold Thai letter ค on teal; original, drawn in SVG; the letter's outline is traced from Sarabun Bold (Copyright 2018 The Sarabun Project Authors, SIL OFL 1.1) | MIT OR Apache-2.0 for the drawing; the letter outline is from Sarabun, SIL Open Font License 1.1 (`assets/app-icon/OFL-Sarabun.txt`) | KhitKrub web app icon, favicon, install icon and loading screen; Quiet Glass revision 2026-11-01 |
+| `assets/app-icon/khitkrub-192.png`, `assets/app-icon/khitkrub-512.png` | Chanon Sarasuk | rendered from `assets/app-icon/khitkrub.svg` with sharp (Quiet Glass revision, 2026-11-01) | MIT OR Apache-2.0 (letter outline: SIL OFL 1.1, as above) | KhitKrub web install and touch icons |
 | `assets/app-icon/OFL-Sarabun.txt` | The Sarabun Project Authors | licence text shipped with Sarabun (google/fonts `ofl/sarabun/OFL.txt`) | SIL Open Font License 1.1 | Licence for the Sarabun letter outline in the icon |
-| `docs/images/khitkrub-start.png`, `docs/images/khitkrub-editor.png`, `docs/images/khitkrub-dark.png`, `docs/images/khitkrub-loading.png` | Chanon Sarasuk | Actual KhitKrub web app (start screen, editor, dark theme, loading screen) captured in headless Chrome on a fresh profile, showing GridCraft's built-in sample workbooks (original content; Sarabun and Ubuntu-derived interface faces, OFL-1.1 and Ubuntu Font Licence) | MIT OR Apache-2.0 | README screenshots; no Microsoft interface or assets |
+| `docs/images/khitkrub-start.png`, `docs/images/khitkrub-editor.png`, `docs/images/khitkrub-dark.png`, `docs/images/khitkrub-loading.png`, `docs/images/khitkrub-ribbon.png` | Chanon Sarasuk | Actual KhitKrub web app (start screen, editor, dark theme, loading screen, Home tab close-up) captured in headless Chrome on a fresh profile, showing the built-in sample workbooks, including KhitKrub's own Thai one (original content; Sarabun and Ubuntu-derived interface faces, OFL-1.1 and Ubuntu Font Licence) | MIT OR Apache-2.0 | README screenshots; no Microsoft interface or assets |
 | `epaint_default_fonts::EGUI_ICONS`, `epaint_default_fonts::EMOJI_ICON` (dependency font inputs) | John Slegers | [egui 6d518fc](https://github.com/storytold/egui/tree/6d518fc799681571963842f95b55a6b68431b15a/crates/epaint_default_fonts/fonts), [emoji-icon-font](https://github.com/jslegers/emoji-icon-font) | MIT (Copyright (c) 2014 John Slegers; full upstream text in `NOTICE`) | egui-icons.ttf is the five-glyph subset; emoji-icon-font.ttf is the full monochrome fallback. Registered by the production default font definitions; dependency assets unmodified here, no font file copied into this repository. |
 | `epaint_default_fonts::HACK_REGULAR` (dependency font input) | Source Foundry Authors (Hack; DejaVu and Bitstream Vera foundations) | [egui 6d518fc](https://github.com/storytold/egui/tree/6d518fc799681571963842f95b55a6b68431b15a/crates/epaint_default_fonts/fonts), [Hack](https://github.com/source-foundry/Hack) | MIT + Bitstream Vera License (full upstream texts in `NOTICE`) | Hack-Regular.ttf is egui's bundled monospace face and GridCraft's last-resort symbol fallback. Dependency asset unmodified here, no font file copied into this repository. |
 | `epaint_default_fonts::NOTO_EMOJI_REGULAR` (dependency font input) | The Noto Project Authors | [egui 6d518fc](https://github.com/storytold/egui/tree/6d518fc799681571963842f95b55a6b68431b15a/crates/epaint_default_fonts/fonts), [Noto Emoji](https://fonts.google.com/noto/specimen/Noto+Emoji) | SIL Open Font License 1.1 (full upstream text in `NOTICE`) | NotoEmoji-Regular.ttf is enabled by egui's `monochrome_emoji_fonts` feature and used as the monochrome emoji fallback. Dependency asset unmodified here, no font file copied into this repository. |
@@ -41,3 +41,27 @@ Generated-in-code art is original and has no file to list: the UI icon set (`cra
 | `docs/images/pivot.png` | GridCraft contributors | screenshot of GridCraft rendered offscreen (`crates/ui-egui/examples/snapshot.rs`) showing an original sample workbook | MIT OR Apache-2.0 | README screenshot; no third-party content |
 | `docs/images/format-chart.png` | GridCraft contributors | screenshot of GridCraft rendered offscreen (`crates/ui-egui/examples/snapshot.rs`) showing an original sample workbook | MIT OR Apache-2.0 | README screenshot; no third-party content |
 | `docs/images/page-break.png` | GridCraft contributors | screenshot of GridCraft rendered offscreen (`crates/ui-egui/examples/snapshot.rs`) showing an original sample workbook | MIT OR Apache-2.0 | README screenshot; no third-party content |
+
+## Quiet Glass preview (2026-11-01)
+
+| Asset | Author | Source | Licence | Used for |
+|---|---|---|---|---|
+| `crates/krub-icons/src/lib.rs` | KrubOffice contributors | Original Quiet Glass Rust drawings, 24×24 grid, 2026-11-01 | MIT OR Apache-2.0 | Shared toolbar preview and glass letter treatment |
+| `assets/app-icon/khitkrub.svg` (Quiet Glass revision) | KrubOffice contributors; The Sarabun Project Authors | Original glass treatment of existing Sarabun Bold outline, 2026-11-01 | MIT OR Apache-2.0; letter outline SIL OFL 1.1 | Updated web icon master |
+
+## Quiet Glass shared catalog (2026-11-01)
+
+| Asset | Author | Source | Licence | Used for |
+|---|---|---|---|---|
+| `crates/krub-icons/src/deck.rs`, `crates/krub-icons/src/deck/draw.rs`, `crates/krub-icons/src/deck/geometry.rs` | DeckCraft and KrubOffice contributors | Original Rust artwork from storytold/deckcraft `crates/ui-egui/src/icons{.rs,/draw.rs,/geometry.rs}`; adapted to Quiet Glass ink, gold surfaces and 1.75-unit strokes | MIT OR Apache-2.0 | Shared canonical action symbols; no vendor artwork |
+| `crates/krub-icons/src/word.rs`, `crates/krub-icons/src/menu.rs` | WordCraft and KrubOffice contributors | Original Rust artwork from this suite's KhianKrub `crates/ui-egui/src/icons.rs` and `ribbon.rs`; converted to the common master and palette | MIT OR Apache-2.0 | Document-specific actions and menu diagrams |
+| `crates/krub-icons/src/sheet.rs` | GridCraft and KrubOffice contributors | Original Rust artwork from this suite's KhitKrub `crates/ui-egui/src/icons.rs`; adapted to common geometry, aliases and palette | MIT OR Apache-2.0 | Spreadsheet-specific actions |
+
+| `crates/ui-egui/src/icons/content.rs` | GridCraft contributors | Original pre-migration GridCraft icon painter, retained exclusively for stored workbook artwork | MIT OR Apache-2.0 | Preserves existing inserted icon objects; UI controls use the shared library |
+
+## Thai Distribution icon (2026-11-01)
+
+| Asset | Author | Source | Licence | Used for |
+|---|---|---|---|---|
+| `crates/krub-icons/src/thai.rs` | KrubOffice contributors; The Sarabun Project Authors | Original square; preflattened ท glyph from the existing Sarabun SemiBold face, google/fonts ofl/sarabun | Square/code MIT OR Apache-2.0; glyph SIL OFL 1.1 | Font-independent shared Thai Distribution toolbar icon |
+| `crates/krub-icons/OFL-Sarabun.txt` | The Sarabun Project Authors | Existing Sarabun licence, copied unchanged from assets/app-icon/OFL-Sarabun.txt | SIL OFL 1.1 | Licence for the ท outline |

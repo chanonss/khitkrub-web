@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <!-- KhitKrub icon (original artwork; MIT OR Apache-2.0): a gold Thai letter ค (kho khwai, the first
-       consonant of คิด, "to think" or "to calculate") on teal. The letter's outline is traced from
-       Sarabun Bold, Copyright 2018 The Sarabun Project Authors, SIL Open Font License 1.1
-       (assets/app-icon/OFL-Sarabun.txt), drawn first for the KrubOffice launcher in the KhianKrub
-       project as a placeholder until the owner draws a final icon. -->
-  <rect width="512" height="512" rx="111" fill="#0f6e56"/>
-  <path fill="#F2B705" fill-rule="nonzero" d="M 354.41 125.43 Q 389.64 151.86 389.64 197.66 L 389.64 393.97 L 325.21 393.97 L 325.21 204.20 Q 325.21 178.53 307.34 163.94 Q 289.47 149.34 258.27 149.34 Q 224.04 149.34 204.15 164.94 Q 184.27 180.55 184.27 208.23 Q 184.27 224.34 189.81 257.56 Q 198.37 227.86 215.73 211.50 Q 233.10 195.14 257.76 195.14 Q 282.43 195.14 296.27 207.73 Q 310.11 220.31 310.11 242.96 Q 310.11 265.11 297.02 277.69 Q 283.94 290.28 261.29 290.28 Q 249.71 290.28 239.89 286.25 Q 230.08 282.23 224.54 274.67 Q 216.49 286.25 211.45 303.11 Q 206.42 319.98 206.42 336.59 L 206.42 393.97 L 144.00 393.97 L 144.00 318.47 Q 144.00 307.39 134.44 273.16 Q 128.40 249.00 125.38 234.91 Q 122.36 220.82 122.36 208.74 Q 122.36 158.40 158.35 128.70 Q 194.34 99.00 258.27 99.00 Q 319.17 99.00 354.41 125.43ZM 245.43 227.86 Q 239.64 233.40 239.64 242.46 Q 239.64 252.02 245.43 257.56 Q 251.22 263.10 260.28 263.10 Q 269.34 263.10 274.88 257.56 Q 280.41 252.02 280.41 242.46 Q 280.41 233.40 274.88 227.86 Q 269.34 222.33 260.28 222.33 Q 251.22 222.33 245.43 227.86Z"/>
-</svg>
