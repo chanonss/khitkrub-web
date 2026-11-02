@@ -21,6 +21,7 @@
 - **ไอคอนชุดใหม่** ไอคอนบนริบบิ้นวาดใหม่ทั้งชุด เส้นสีเข้มอ่านง่าย แต้มสีทองเฉพาะส่วนสำคัญ ใช้ชุดเดียวกับเขียนครับและพูดครับ ปุ่มเดียวกันจึงหน้าตาเหมือนกันทุกโปรแกรม
 - **ริบบิ้นแบบเดียวกับเขียนครับ** ทุกแท็บมีไอคอนใหญ่ขึ้น ปุ่มเรียงกึ่งกลางแถบ และระยะห่างเท่ากันทุกกลุ่ม
 - **โลโก้ใหม่** ตัว ค สีทองบนพื้นสีเขียวอมน้ำเงิน แบบกระจกมีประกาย ทั้งหน้ารอเปิดโปรแกรมและหน้าเริ่มต้น
+- **ภาพเคลื่อนไหวขณะรอเปิดโปรแกรม** แผ่นสีทองกับแผ่นสีเขียวอมน้ำเงินลอยเข้ามาซ้อนหลังโลโก้ แบบเดียวกับเขียนครับ
 - รูปไอคอนที่แทรกไว้ในเวิร์กบุ๊กยังหน้าตาเหมือนเดิม งานที่ทำไว้แล้วจึงไม่เปลี่ยน
 
 **ที่ยังไม่เสร็จ** ชื่อฟังก์ชันในสูตรเป็นภาษาอังกฤษ ข้อความบางส่วนยังเป็นภาษาอังกฤษ (เช่น ชื่อไฟล์ตัวอย่างและเนื้อหาในตัวอย่าง) และยังไม่มีเลขไทย วันที่แบบ พ.ศ. หรือการอ่านจำนวนเงินเป็นตัวอักษร ยังไม่ได้ทดสอบบน iPad และโทรศัพท์มือถือ
@@ -32,6 +33,7 @@
 - **New icons.** Every ribbon icon has been redrawn: dark, easy-to-read lines with a touch of gold where it matters. It's the same set as KhianKrub and PhutKrub, so the same button looks the same in every app.
 - **KhianKrub's ribbon.** Every tab has larger icons, buttons centred in the ribbon, and even spacing in every group.
 - **A new logo.** A gold ค on teal with a glass shine, on the loading screen and the start screen.
+- **A loading animation.** A gold sheet and a teal sheet fly in behind the logo while the app loads, as in KhianKrub.
 - Icons you've inserted into a workbook keep their look, so your existing work doesn't change.
 
 **Not done yet:** function names in formulas are English; some text is still English (such as the sample workbooks' own content); there are no Thai digits, Buddhist-era dates or baht-in-words yet; it has not been tested on iPads and phones.
@@ -73,4 +75,4 @@
 
 KhitKrub is Chanon Sarasuk's Thai adaptation of [GridCraft](https://github.com/storytold/gridcraft) by the ArtCraft team (MIT or Apache-2.0, at your option), one of the apps in [KrubOffice](https://kruboffice.app/). It is not an ArtCraft product and is not affiliated with Microsoft. The screenshots are taken from the running app and show its built-in sample workbooks (original content). This repository holds the compiled site only; the source code is private. Third-party components keep their own licences: see `ATTRIBUTION.md`, `NOTICE`, and `fonts/` (Sarabun: SIL OFL 1.1; TH Sarabun New: GPL with the font exception).
 
-Prepared from version **0.2.0**, source commit `1fe5d2e1`.
+Prepared from version **0.2.0**, source commit `ca1011a7`.
