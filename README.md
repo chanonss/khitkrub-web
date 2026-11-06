@@ -2,7 +2,7 @@
   <img src="icons/192/khitkrub-192.png" alt="KhitKrub: a gold ค on teal" width="96" height="96">
 </p>
 
-# คิดครับ · KhitKrub Web v0.3.0
+# คิดครับ · KhitKrub Web v0.3.1
 
 **โปรแกรมตารางคำนวณภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
@@ -16,43 +16,19 @@
 
 ## ประกาศภาษาไทย
 
-**คิดครับบนเว็บ (KhitKrub Web) v0.3.0** เปิดและบันทึกไฟล์ใน Google Drive ได้แล้ว พร้อมคลังฟังก์ชันในแท็บสูตรครับ
+**คิดครับบนเว็บ (KhitKrub Web) v0.3.1** หน้าเกี่ยวกับโปรแกรมเป็นแบบเดียวกับเขียนครับแล้วครับ
 
-- **Google Drive** เชื่อมต่อ Google Drive ในคลิกเดียวแบบเดียวกับเขียนครับ เปิดตารางคำนวณ `.xlsx` จาก Drive แก้ไขแล้วกดบันทึก (Ctrl+S) ไฟล์เดิมใน Drive จะถูกบันทึกทับ หรือบันทึกเป็นสำเนาใหม่ก็ได้ โปรแกรมเข้าถึงเฉพาะไฟล์ที่คุณเลือกหรือที่โปรแกรมสร้างเท่านั้น
-- **ฉบับร่างในอุปกรณ์นี้** เวิร์กบุ๊กใหม่ที่ยังไม่ได้บันทึกเป็นไฟล์หรือลง Google Drive เรียกว่าฉบับร่างอย่างชัดเจน หน้าเริ่มต้นแสดง **ชื่อ (ฉบับร่าง)** แถบชื่อด้านบนแสดง **(ฉบับร่าง) — บันทึกในอุปกรณ์นี้แล้ว** และเมื่อทุกอย่างถูกเก็บแล้ว ปิดแท็บได้โดยเบราว์เซอร์ไม่ถาม
-- **ถามก่อนปิดแท็บเมื่องานจะหาย** ไฟล์ที่เปิดจากเครื่องหรือ Google Drive ที่ยังมีการแก้ไขค้างอยู่ เบราว์เซอร์จะถามก่อนปิดแท็บ
-- **ถามบันทึกการเปลี่ยนแปลงเป็นภาษาไทย** หน้าต่างถามว่าจะบันทึกหรือไม่ ทั้งคำถามและปุ่ม บันทึก ไม่บันทึก ยกเลิก เป็นภาษาไทยแล้ว
-- **เปิดไฟล์ CSV ที่วันที่ขึ้นต้นด้วยวัน** เช่น 31/05/2026 โปรแกรมดูทั้งคอลัมน์แล้วอ่านเป็นวัน/เดือน/ปีให้เอง
-- **ตรึงช่องแล้วเลื่อนดูได้ไม่หาย** คอลัมน์ที่ตรึงไว้ยังแสดงข้อความ เส้นตาราง และเส้นขอบระหว่างเลื่อนดู
-- **คลังฟังก์ชันในแท็บสูตร** ปุ่มหมวดฟังก์ชันพร้อมไอคอนสมุดสีต่าง ๆ ใช้ล่าสุด และแทรกฟังก์ชัน
-- **ค้นหาและแทนที่เฉพาะช่วงที่เลือก**
-- **สูตรจาก Google Sheets** ไฟล์ที่ส่งออกจาก Google Sheets เปิดแล้วได้สูตรเดิม
-- **เลือกช่วงจากตารางในกล่องโต้ตอบ** เช่น หาค่าเป้าหมายและ Solver ย่อกล่องโต้ตอบลงขณะเลือกเซลล์ได้
-- **แผนภูมิ รูปภาพ และรูปร่าง** เลือกได้แบบเดียวกัน มีจุดจับปรับขนาดแปดจุด
-- **ขยายแถบสูตรได้** ลากขอบล่างของแถบสูตร
-- **ทนทานขึ้น** จำกัดงานที่ไฟล์หรือสูตรผิดปกติสั่งให้ทำ เพื่อไม่ให้โปรแกรมค้างหรือปิดตัวเอง
+- **ไฟล์ › เกี่ยวกับ (เดิมชื่อ บัญชี) แบบเดียวกับเขียนครับ** แสดงชื่อคิดครับ รุ่นของโปรแกรม คำอธิบายภาษาไทย ลิงก์หน้าโครงการ และลิงก์โครงการต้นฉบับ GridCraft เหมือนกันทั้งสามโปรแกรมใน KrubOffice
 
-**ที่ยังไม่เสร็จ** ชื่อฟังก์ชันในสูตรเป็นภาษาอังกฤษ ข้อความบางส่วนยังเป็นภาษาอังกฤษ (เช่น ชื่อไฟล์ตัวอย่างและเนื้อหาในตัวอย่าง) และยังไม่มีเลขไทย วันที่แบบ พ.ศ. หรือการอ่านจำนวนเงินเป็นตัวอักษร ยังไม่ได้ทดสอบบน iPad และโทรศัพท์มือถือ
+รายการใหม่ของรุ่น 0.3.0 ดูได้ที่[หน้ารุ่น 0.3.0](https://github.com/chanonss/khitkrub-web/releases/tag/v0.3.0)
 
 ## English announcement
 
-**KhitKrub Web v0.3.0** adds Google Drive and a Function Library on the Formulas tab.
+**KhitKrub Web v0.3.1** has the same About page as KhianKrub.
 
-- **Google Drive.** Connect Google Drive in one click, as in KhianKrub: open an `.xlsx` workbook from Drive, edit it, and Save (Ctrl+S) puts it back over the same file, or save a new copy. The app sees only the files you pick or it creates.
-- **Drafts on this device.** A new workbook not yet saved as a file or to Google Drive is plainly called a draft: the start screen lists **Name (draft)**, the title bar reads **(draft) — Saved on this device**, and once everything is kept the tab closes without the browser asking.
-- **Asks before closing when work would be lost.** A file opened from this device or Google Drive with unsaved edits makes the browser ask before the tab closes.
-- **Save Changes in Thai.** The question and the Save, Don't Save and Cancel buttons are in Thai.
-- **CSV files with day-first dates**, such as 31/05/2026: the app looks at the whole column and reads them as day/month/year.
-- **Frozen panes stay put.** Frozen columns keep their text, gridlines and borders while you scroll.
-- **A Function Library on the Formulas tab:** category buttons with coloured book icons, Recently Used and Insert Function.
-- **Find and Replace within a selection.**
-- **Formulas from Google Sheets.** Files exported from Google Sheets open with their formulas.
-- **Pick ranges from the sheet in dialogs** such as Goal Seek and Solver, collapsing the dialog while you select cells.
-- **Charts, pictures and shapes** are selected the same way, with eight resize handles.
-- **A taller formula bar.** Drag its bottom edge.
-- **Sturdier.** The work an unusual file or formula can ask for is limited, so the app doesn't hang or close.
+- **File › About (was Account) matches KhianKrub.** It shows the KhitKrub name, the version, a Thai description, a link to the project and to the original GridCraft project, the same in all three KrubOffice apps.
 
-**Not done yet:** function names in formulas are English; some text is still English (such as the sample workbooks' own content); there are no Thai digits, Buddhist-era dates or baht-in-words yet; it has not been tested on iPads and phones.
+What came new in 0.3.0: [release 0.3.0](https://github.com/chanonss/khitkrub-web/releases/tag/v0.3.0).
 
 ## หน้าตาโปรแกรม / A look around
 
@@ -109,4 +85,4 @@ There is no server storage. A new workbook not yet saved as a file or to Google 
 
 KhitKrub is Chanon Sarasuk's Thai adaptation of [GridCraft](https://github.com/storytold/gridcraft) by the ArtCraft team (MIT or Apache-2.0, at your option), one of the apps in [KrubOffice](https://kruboffice.app/). It is not an ArtCraft product and is not affiliated with Microsoft. The screenshots are taken from the running app and show its built-in sample workbooks (original content). This repository holds the compiled site only; the source code is private. Third-party components keep their own licences: see `ATTRIBUTION.md`, `NOTICE`, and `fonts/` (Sarabun: SIL OFL 1.1; TH Sarabun New: GPL with the font exception).
 
-Prepared from version **0.3.0**, source commit `3a82658b`.
+Prepared from version **0.3.1**, source commit `b5f9bcaa`.
