@@ -2,7 +2,7 @@
   <img src="icons/192/khitkrub-192.png" alt="KhitKrub: a gold ค on teal" width="96" height="96">
 </p>
 
-# คิดครับ · KhitKrub Web v0.4.0
+# คิดครับ · KhitKrub Web v0.5.0
 
 **โปรแกรมตารางคำนวณภาษาไทยและภาษาอังกฤษ ใช้งานฟรีบนเว็บ**
 
@@ -16,24 +16,23 @@
 
 ## ประกาศภาษาไทย
 
-**คิดครับบนเว็บ (KhitKrub Web) v0.4.0** มีตัวควบคุมฟอร์ม และแก้ปัญหาโปรแกรมหยุดทำงานตอนวางข้อมูลทั้งคอลัมน์ครับ
+**คิดครับบนเว็บ (KhitKrub Web) v0.5.0** โฉมใหม่ ไอคอนชุดเดียวกันทั้ง KrubOffice แถบเครื่องมือแบบสองขนาด และฟอนต์ Sarabun ครับ
 
-- **ตัวควบคุมฟอร์ม: ปุ่ม แถบเลื่อน และปุ่มหมุน** แทรกลงบนชีตได้ แถบเลื่อนและปุ่มหมุนเปลี่ยนตัวเลขในเซลล์ที่ลิงก์ไว้ ส่วนปุ่มกำหนดให้เรียกแมโครหรือคำสั่งได้ หน้าต่างตั้งค่าเป็นภาษาไทย และบันทึกเป็น .xlsx ได้
-- **วางทั้งคอลัมน์หรือทั้งแถวได้แล้ว** เดิมอาจทำให้โปรแกรมหยุดทำงาน
-- **"ตั้งค่าความแม่นยำตามที่แสดง" คำนวณจริง** และแผนภูมิโดนัทหลายชุดข้อมูลวาดถูกต้อง
-- **ปลอดภัยขึ้น** ลิงก์ที่เปิดโดยอัตโนมัติจะถามก่อน และไฟล์ Excel ที่ผิดปกติไม่ทำให้เบราว์เซอร์ค้าง
-- **ภาษาไทยครบขึ้น** ป้ายที่ยังเป็นภาษาอังกฤษ เช่น เมนูไฮเปอร์ลิงก์และตัวเลือกการแสดงผล เป็นภาษาไทยแล้ว
+- **ไอคอนชุดใหม่ มาตรฐานเดียวกันทั้ง KrubOffice** ไอคอนทุกตัววาดใหม่เป็นเส้นบางแบบเดียวกับเขียนครับและพูดครับ
+- **แถบเครื่องมือแบบใหม่** ปุ่มสองขนาด ไม่เกินสองแถว ปุ่มเล็กชี้ค้างไว้เพื่อดูชื่อ
+- **สมุดงานใหม่ใช้ฟอนต์ Sarabun** ทั้งตัวไทย ตัวอังกฤษ และตัวเลข
+- **ย้ายหรือคัดลอกชีตไปสมุดงานอื่น** ทั้งสมุดงานใหม่และสมุดงานอื่นที่เปิดอยู่
+- **แท็บรูปแบบรูปภาพและรูปร่าง** พร้อมช่องความสูงและความกว้าง
 
 ## English announcement
 
-**KhitKrub Web v0.4.0** adds form controls and fixes a crash when pasting a whole column.
+**KhitKrub Web v0.5.0**: a new look, with one icon set across KrubOffice, a two-size ribbon and Sarabun.
 
-- **Form controls: buttons, sliders and spin buttons** on the sheet. Sliders and spin buttons set a number in a linked
-  cell; a button runs a macro or a command. Their dialogs are in Thai, and they save to `.xlsx`.
-- **Pasting a whole column or row works**; it could stop the app.
-- **"Set precision as displayed" calculates as it says**, and doughnut charts with several series draw as rings.
-- **Safer**: a link opened programmatically asks first, and oversized Excel files no longer stall the browser.
-- **More Thai**: the hyperlink menu, the display options and other labels that were still English.
+- **New icons, one standard across KrubOffice**: every icon redrawn in the thin-line style shared with KhianKrub and PhutKrub.
+- **A new ribbon**: two button sizes, at most two rows; hover a small button for its name.
+- **New workbooks use Sarabun** for Thai, Latin and digits alike.
+- **Move or copy a sheet to another workbook**, new or already open.
+- **Picture Format and Shape Format tabs** with height and width boxes.
 
 ## หน้าตาโปรแกรม / A look around
 
@@ -90,4 +89,4 @@ There is no server storage. A new workbook not yet saved as a file or to Google 
 
 KhitKrub is Chanon Sarasuk's Thai adaptation of [GridCraft](https://github.com/storytold/gridcraft) by the ArtCraft team (MIT or Apache-2.0, at your option), one of the apps in [KrubOffice](https://kruboffice.app/). It is not an ArtCraft product and is not affiliated with Microsoft. The screenshots are taken from the running app and show its built-in sample workbooks (original content). This repository holds the compiled site only; the source code is private. Third-party components keep their own licences: see `ATTRIBUTION.md`, `NOTICE`, and `fonts/` (Sarabun: SIL OFL 1.1; TH Sarabun New: GPL with the font exception).
 
-Prepared from version **0.4.0**, source commit `83dc4d31`.
+Prepared from version **0.5.0**, source commit `f0812c7f`.
